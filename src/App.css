@@ -2,30 +2,59 @@
   text-align: center;
 }
 
+.Header{
+  background-color: #1e2427;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 300px );
+  padding: 15px 20px 13px 20px;
+  margin-left: 300px;
+  box-shadow: 0 1px 10px #000;
+}
+.dropdown-item:hover{
+  background-color: #f43636;
+}
+.content-icon{
+  text-align: left;
+}
+.notification {
+  color: white;
+  line-height: 38px;
+}
+.dropdown-profile .dropdown{
+  float: right;
+}
 .NavVertical {
-  width: 100px;
+  margin-top: 0px;
+  width: 300px;
   height: 100%;
   position: fixed;
   background-color: #212121;
-  border-right: 1px solid red;
+  border-right: 1px solid #000000;
 }
 .NavVertical p{
   color: white;
-  background-color: black;
-  background-color: red;
+  background-color: #f43636;
   margin: 0px;
   padding: 5px 0px;
+
   
 }
 .NavVertical a{
-  color: red;
+  color: #f43636;
   border-top: 1px solid gray;
 }
 .NavVertical a:hover{
   color: white;
-  background-color: red;
+  background-color: #f43636;
 }
-
+.Container-Dash{
+  padding: 20px;
+  padding-left: 320px;
+  padding-top: 89px;
+  background-color: #eaedf1;
+  height: 100vh;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

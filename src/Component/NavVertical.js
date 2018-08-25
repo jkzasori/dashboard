@@ -4,10 +4,10 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 function NavVertical(){
 	return(
 		<div className="NavVertical">
-			<p>Nav Vertical</p>
+			<p>HOME</p>
 			<Nav vertical>
 				<NavItem>
-					<NavLink href="">UNo</NavLink>
+					<NavLink href="">Category</NavLink>
 					<NavLink href="#">Dos</NavLink>
 				</NavItem>
 			</Nav>
