@@ -3,9 +3,9 @@ import { Table } from 'reactstrap';
 
 function TableF(){
 	return(
-		<div className="bg-success">
-			<Table dark bordered>
-				<thead>
+		<div className="">
+			<Table dark bordered responsive>
+				<thead >
 					<tr>
 						<th>
 							#
@@ -22,6 +22,72 @@ function TableF(){
 					<tr>
 						<td>
 							1
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							3
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							4
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							5
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							6
+						</td>
+						<td>
+							José
+						</td>
+						<td>
+							Támara
+						</td>
+					</tr>
+					<tr>
+						<td>
+							7
 						</td>
 						<td>
 							José
