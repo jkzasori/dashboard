@@ -31,22 +31,78 @@
   position: fixed;
   background-color: #212121;
   border-right: 1px solid #000000;
+  padding: .5rem 1rem;
 }
-.NavVertical p{
+.NavVertical .title{
+  text-align: center;
+  font-size: 2rem;
+}
+.NavVertical .title:hover{
+  background-color: initial;
   color: white;
-  background-color: #f43636;
+}
+.NavVertical .title .t{
+  color: white;
+  font-weight: bold;
+}
+.NavVertical .Dash{
+ color: #e4e4e4;
+}
+.NavVertical .Dash:hover{
+  background-color: initial;
+}
+.NavVertical .nav-link{
+  padding: 0;
+}
+.links {
+  position: relative;
+}
+.links .nav-link:before{
+    content: "\f105";
+    color: #c8c9ce;
+    font-family: 'Fontawesome';
+    font-size: 18px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    text-align: right;
+}
+.NavVertical .content-title{
+  color: white;
+  /*background-color: #f43636;*/
   margin: 0px;
   padding: 5px 0px;
-
-  
 }
 .NavVertical a{
   color: #f43636;
-  border-top: 1px solid gray;
+  text-align: left;
+  padding-top: 15px;
 }
 .NavVertical a:hover{
   color: white;
   background-color: #f43636;
+}
+.NavVertical .cel-border{
+  border-bottom: 1px solid gray;
+  padding: 15px 0;
+}
+.NavVertical a .icon{
+  margin-right: 55px;
+  margin-left: 7px;
+}
+.NavVertical a .icon2{
+  margin-left: 55px;
+  margin-right: 7px;
+}
+.NavVertical h3{
+  margin-top: 42px;
+  text-align: left;
+  color: #949494;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
 }
 .Container-Dash{
   padding: 20px;
