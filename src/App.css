@@ -114,6 +114,40 @@
 .table-responsive thead{
   background-color: #212121;
 }
+@media (max-width: 1200px){
+  .Header{
+    width: calc(100% - 250px);
+    margin-left: 250px;
+  }
+  .NavVertical{
+    width: 250px;
+  }
+  .Container-Dash{
+    padding-left: 270px;
+  }
+}
+@media (max-width: 770px){
+  .noneInvie{
+    display: none;
+  }
+  .Header{
+    width: calc(100% - 75px);
+    margin-left: 75px;
+  }
+  .NavVertical{
+    width: 75px;
+  }
+  .NavVertical h3 {
+    margin-top: 0px;
+  }
+  .Container-Dash{
+    padding-left: 95px;
+  }
+  .movil-center{
+    text-align: center !important;
+  }
+
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
